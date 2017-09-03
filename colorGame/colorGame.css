@@ -1,0 +1,76 @@
+body {
+	background-color: #232323;
+	margin: 0; /*this gives you no space in all sides of body*/
+	font-family: "Monsterat", "Avenir";
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	line-height: 1.1;
+	padding: 20px 0;
+	background: steelblue;
+	margin: 0; /*this gives you no space on all sides of the h1*/
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-top: 30%;
+	float: left; /*to place the boxes in a line*/
+	margin: 1.66%;
+	border-radius: 20%; /*this makes the circular corners in the squares*/
+	transition: background 0.5s; /*all background color transitions take 0.5 seconds*/
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;  /*0 margin on top and bottm, auto on left and right to make the whole thing centered.*/
+}
+
+#message {
+	color: black;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected {
+	color: white;
+	background: steelblue;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s; /*this makes the property changes in the button(hover) it takes 0.3 seconds*/
+	outline: none; /*gets rid of the blue outline when you press a button*/
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	/*these gives the message an inline block that is 20% of the div*/
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+
